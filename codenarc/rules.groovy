@@ -373,5 +373,7 @@ ruleset {
     UnusedPrivateMethod
     UnusedPrivateMethodParameter
     //UnusedVariable
-
+    
+    // Formatting
+    NoTabCharacter
 }
