@@ -376,4 +376,6 @@ ruleset {
     
     // Formatting
     NoTabCharacter
+
+    ruleset('rulesets/codenarc-extra.xml')
 }
