@@ -376,11 +376,11 @@ ruleset {
     
     // Formatting
     NoTabCharacter
-    
+
     ruleset('rulesets/codenarc-extra.xml') {
         CompileStatic  {
             //doNotApplyToClassNames = '*Spec,*Test,.*GrailsPlugin,Application'
-            doNotApplyToFilesMatching = ".*/src/test/.*|.*GrailsPlugin.groovy|.*Application.groovy"
+            doNotApplyToFilesMatching = ".*/src/test/.*|.*GrailsPlugin.groovy|.*Application.groovy|.*BootStrap.groovy"
         }
     }
 }
